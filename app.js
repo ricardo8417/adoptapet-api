@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 /*********************** Mongoose Configuration *******************************/
 const mongoose = require("mongoose");
 mongoose.connect(
-    "mongodb+srv://RICARDO:Bedu@cluster0.nfsc5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongodb+srv://tus datos de conexión a la base de datos@cluster0.nfsc5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 );
 mongoose.set("debug", true);
 require("./models/Usuario");
